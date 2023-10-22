@@ -1,0 +1,41 @@
+
+.DS_Store
+/dist
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# debug
+lerna-debug
+npm-debug
+
+# Optional npm cache directory
+.npm
+
+# PyCharm
+.IDEA/*
+.idea/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# virtualenv python
+.venv
+venv/
+VENV/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
